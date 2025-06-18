@@ -95,7 +95,7 @@
             const almendraUsuario = document.getElementById('almendra').value;
             const barcoClave = document.getElementById('barco').value;
 
-            fetch('https://raw.githubusercontent.com/codechecker341/usuarios_iptv/refs/heads/main/users.txt')
+            fetch('https://raw.githubusercontent.com/mianertv/mianertv/refs/heads/main/users.txt')
                 .then(response => response.text())
                 .then(data => {
                     const usuarios = data.split('\n').map(line => {
